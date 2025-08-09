@@ -15,11 +15,11 @@ Features (24): Age, Blood pressure (bp), Specific gravity (sg) , Albumin (al) , 
 
 Target Variable: classification (ckd or notckd)
 Preprocessing Steps: 
-Removed irrelevant column (‘id’) 
-Encoded categorical variables using LabelEncoder 
-Handled missing values through imputation of mode and median or removal
-Standardized numerical features using StandardScaler 
-Split the dataset into training and testing sets using train_test_split
+-Removed irrelevant column (‘id’) 
+-Encoded categorical variables using LabelEncoder 
+-Handled missing values through imputation of mode and median or removal
+-Standardized numerical features using StandardScaler 
+-Split the dataset into training and testing sets using train_test_split
 
 
 3. Model Description and Performance Metrics
