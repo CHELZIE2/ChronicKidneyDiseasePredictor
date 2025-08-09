@@ -25,8 +25,8 @@ Preprocessing Steps:
 3. Model Description and Performance Metrics
 Models Used: Logistic Regression and  XGBoost Classifier (final deployed model)
 Training Process: 
-Features and labels were extracted after preprocessing 
-Both models were trained and evaluated using accuracy and other classification metrics
+-Features and labels were extracted after preprocessing 
+-Both models were trained and evaluated using accuracy and other classification metrics
 
 4. Performance Metrics: 
 - XGBoost Classifier: Accuracy~98.75% Precision, Recall, F1 Score: High and balanced 
