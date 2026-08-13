@@ -1,7 +1,7 @@
 Flask
 flask-cors
 joblib
-xgboost
+xgboost==3.0.2
 numpy
 scikit-learn
 pandas
