@@ -17,7 +17,10 @@ app = Flask(__name__)
 CORS(app)
 
 # Load your trained XGBoost model
-model = joblib.load("xgb_kidney_disease_model.pkl")  # Ensure the correct model file is used
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "xgb_kidney_disease_model.pkl")
+
+model = joblib.load(MODEL_PATH)
 
 @app.route('/')
 def home():
