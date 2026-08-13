@@ -1,5 +1,6 @@
 # ChronicKidneyDiseasePredictor
 Chronic Kidney Disease Prediction Project Report
+LIVE URL: https://ckd-predictor-xznp.onrender.com
 
 1. Problem Definition and Category
 Title: Chronic Kidney Disease Prediction
